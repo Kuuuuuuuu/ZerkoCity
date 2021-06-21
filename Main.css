@@ -23,7 +23,8 @@ body {
     flex-direction: column;
 }
 
-#cm {
+#cm_tabs {
+    list-style: none;
     position: fixed;
     width: 100%;
     display: flex;
@@ -32,10 +33,6 @@ body {
     padding: 1px 10%;
     background-color: #24252a;
     z-index: 100;
-}
-
-#cm_tabs {
-    list-style: none;
 }
 
 #cm_tabs li {
