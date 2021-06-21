@@ -55,6 +55,10 @@ body {
     text-decoration: none;
 }
 
+#zk_logo {
+    cursor: pointer;
+}
+
 #earth_logo {
     cursor: pointer;
 }
