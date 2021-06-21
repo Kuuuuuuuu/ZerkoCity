@@ -34,6 +34,19 @@ body {
     z-index: 100;
 }
 
+#cm_tabs {
+    list-style: none;
+}
+
+#cm_tabs li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#cm_tabs a:hover {
+    color: #0088a9;
+}
+
 .link_button, #discord_button {
     font-family: Montserrat;
     font-weight: 500;
