@@ -27,7 +27,7 @@ body {
     width: 60%;
     position: sticky;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0px 1%;
     background-color: #2e2e2e;
