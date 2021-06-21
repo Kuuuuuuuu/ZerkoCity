@@ -46,18 +46,10 @@ body {
     color: #0088a9;
 }
 
-#discord_button {
-    font-family: Prompt;
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
 .link {
     font-family: Prompt;
     font-weight: 500;
-    font-size: 8px;
+    font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -79,7 +71,15 @@ body {
     color: #0088a9;
 }
 
-#discord_button:hover {
+#dis {
+    padding: 9px 29px;
+    background-color: #00ccff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#dis:hover {
     background-color: #0088a9;
 }
 
