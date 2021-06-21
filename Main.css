@@ -47,7 +47,15 @@ body {
     color: #0088a9;
 }
 
-.link, #discord_button {
+#discord_button {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.link {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 16px;
