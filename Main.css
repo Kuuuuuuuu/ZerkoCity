@@ -29,7 +29,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1px 10%;
-    background-color: #ccffff;
+    background-color: #24252a;
     z-index: 100;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 #cm_tabs a:hover {
-    color: #ccffff;
+    color: #0088a9;
 }
 
 #discord_button {
