@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+//Hee
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    color: #f5f5f5;
+}
+
+body {
+    background: url(res/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#bar_index {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #2e2e2e;
+    z-index: 100;
+}
+
+.link_button, #discord_button {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+#earth_logo {
+    cursor: pointer;
+}
+
+#tab_panel {
+    list-style: none;
+}
+
+#tab_panel li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#tab_panel a:hover {
+    color: #0088a9;
+}
+
+#discord_button {
+    padding: 9px 29px;
+    background-color: #3399ff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#discord_button:hover {
+    background-color: #0088a9;
+}
+
+#panel_index {
+    text-align: center;
+    padding: 75px 0px 75px 0px;
+    align-content: center;
+    background-color: rgba(0.0, 0.0, 0.0, 0.3);
+}
+
+#text {
+    font-family: Montserrat;
+    text-align: center;
+    padding: 75px 0px 75px 0px;
+    align-content: center;
+    color: #ffffff;
+}
