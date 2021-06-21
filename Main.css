@@ -24,8 +24,8 @@ body {
 }
 
 #cm {
-    width: 60%;
-    position: sticky;
+    width: 200%;
+    position: static;
     display: flex;
     justify-content: space-between;
     align-items: center;
