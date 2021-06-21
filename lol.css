@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1px 10%;
+    padding: 0px 10%;
     background-color: #24252a;
     z-index: 100;
 }
