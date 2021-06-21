@@ -113,11 +113,11 @@ body {
 
 #cm {
     position: fixed;
-    width: 100%;
+    width: 120%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10%;
+    padding: 0px 20%;
     background-color: #24252a;
     z-index: 100;
 }
