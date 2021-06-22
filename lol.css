@@ -74,7 +74,7 @@ body {
 
 #dis {
     padding: 9px 29px;
-    background-color: #00ccff;
+    background-color: #ff000d;
     border: none;
     font-size: 20px;
     border-radius: 30px;
@@ -82,7 +82,7 @@ body {
 }
 
 #dis:hover {
-    background-color: #0088a9;
+    background-color: #d90202;
 }
 
 #text {
@@ -91,8 +91,4 @@ body {
     padding: 75px 0px 75px 0px;
     align-content: center;
     color: #ffffff;
-}
-
-.time {
-  font-size: 60px;
 }
