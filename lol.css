@@ -17,21 +17,69 @@ html, body {
 body {
     background: linear-gradient(-45deg, #00f7ff, #00ff59, #ff00f2, #fffb00, #ff0000);
     background-size: 400% 400%;
-    animation: gradient 3s ease infinite;
+    animation: gradient 5s ease infinite;
 }
 
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
+    5% {
+        background-position: 100% 5%;
+    }
+    10% {
+        background-position: 100% 10%;
+    }
+    15% {
+        background-position: 100% 15%;
+    }
+    20% {
+        background-position: 100% 20%;
+    }
     25% {
         background-position: 100% 25%;
+    }
+    30% {
+        background-position: 100% 30%;
+    }
+    35% {
+        background-position: 100% 35%;
+    }
+    40% {
+        background-position: 100% 40%;
+    }
+    45% {
+        background-position: 100% 45%;
     }
     50% {
         background-position: 100% 50%;
     }
+    55% {
+        background-position: 100% 55%;
+    }
+    60% {
+        background-position: 100% 60%;
+    }
+    65% {
+        background-position: 100% 65%;
+    }
+    70% {
+        background-position: 100% 70%;
+    }
     75% {
         background-position: 100% 75%;
+    }
+    80% {
+        background-position: 100% 80%;
+    }
+    85% {
+        background-position: 100% 85%;
+    }
+    90% {
+        background-position: 100% 90%;
+    }
+    95% {
+        background-position: 100% 95%;
     }
     100% {
         background-position: 0% 50%;
