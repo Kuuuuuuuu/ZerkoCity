@@ -92,3 +92,7 @@ body {
     align-content: center;
     color: #ffffff;
 }
+
+.time {
+  font-size: 60px;
+}
