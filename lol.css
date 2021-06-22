@@ -224,7 +224,18 @@ body {
         opacity: 0;
         border-radius: 50%;
     }
-
 }
 
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
 
