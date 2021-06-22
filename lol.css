@@ -34,7 +34,7 @@ body {
 }
 
 #cm_tabs {
-    list-style: none;
+    list-style-type: space-counter;
 }
 
 #cm_tabs li {
