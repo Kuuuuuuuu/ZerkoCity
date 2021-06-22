@@ -11,13 +11,13 @@
 
 html, body {
   width: 100%;
-  height:100%;
+  height: 100%;
 }
 
 body {
     background: linear-gradient(-45deg, #00f7ff, #00ff59, #ff00f2, #fffb00, #ff0000);
     background-size: 400% 400%;
-    animation: gradient 5s ease infinite;
+    animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
