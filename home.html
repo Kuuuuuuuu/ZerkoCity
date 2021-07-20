@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/image.css">
+    <title>หน้าหลัก | ZKcity</title>
+</head>
+<body>
+<audio id="test" controls autoplay hidden="hidden">
+  <source src="/musics/main.mp3" type="audio/mpeg">
+</audio>
+<script>
+var myaudio = document.getElementById("test").autoplay = true;
+</script>
+    <script src="/javascripts/click.js"></script>
+    <section>
+        <img src="/pictures/banner.jpg" alt="banner">
+        <span class="header animate__animated animate__heartBeat">ZK City</span>
+        <h2 class="animate__animated animate__rubberBand"><span>ยิน</span>ดีต้อนรับสู่เมือง <span>ZK</span>city</h2>
+    </section>
+    <div class="navigation animate__animated animate__fadeInDown">
+        <ul>
+            <img class="iconhome" src="/pictures/icon.gif" alt="ZKcity">
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    <span class="title">หน้าหลัก</span>
+                </a>
+            </li>
+            <li>
+                <a href="/contact.html">
+                    <span class="icon"><i class="fa fa-address-book" aria-hidden="true"></i></span>
+                    <span class="title">ช่องทางติดต่อ</span>
+                </a>
+            </li>
+            <li>
+                <a href="/support.html">
+                    <span class="icon"><i class="fa fa-credit-card-alt" aria-hidden="true"></i></span>
+                    <span class="title">สนับสนุนเรา</span>
+                </a>
+            </li>
+            <li>
+                <a href="/help.html">
+                    <span class="icon"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                    <span class="title">ช่วยเหลือ</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="toggle animate__animated animate__fadeInDown" onclick="toggleMenu()"></div>
+    <script src="/javascripts/togglemenu.js"></script>
+</body>
+</html>
