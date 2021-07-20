@@ -9,9 +9,12 @@
     <title>หน้าหลัก | ZKcity</title>
 </head>
 <body>
-<audio controls autoplay hidden="hidden">
+<audio id="test" controls autoplay hidden="hidden">
   <source src="/musics/main.mp3" type="audio/mpeg">
 </audio>
+<script>
+var myaudio = document.getElementById("test").autoplay = true;
+</script>
     <script src="/javascripts/click.js"></script>
     <section>
         <img src="/pictures/banner.jpg" alt="banner">
